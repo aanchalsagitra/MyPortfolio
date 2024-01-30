@@ -1,0 +1,51 @@
+@media only screen and (max-width: 1030px) {
+    .profile-picture{
+        display: none;
+    }    
+        
+    }
+
+
+@media only screen and (max-width: 350px) {
+    .about,.projects,.contact{
+       padding-left: 0px
+       
+    }
+    
+        
+        
+    }
+  
+@media only screen and (max-width: 600px) {
+    .about,.projects,.contact{
+       padding-left: 32px;
+    }
+    
+        
+        
+    }
+
+@media only screen and (max-width:320px) {
+    .contactbtn{
+        display: none;
+    }
+    .profile-text{
+       align-items: center;
+       justify-content: center;
+    }
+    .profile-text p{
+       text-align: center;
+    }
+    .about-area{
+        margin-right: 4px;
+
+    }
+    .about p{
+        font-size: 8px;
+    }
+    .about,.projects{
+        margin-left: 5px;
+        max-width: 90%;
+     }
+}
+  

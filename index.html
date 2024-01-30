@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aanchal's Portfolio</title>
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="icon" href="https://i.ibb.co/zRsTj3p/Frame-1-37.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      class="stylesheet"
+    />
+  </head>
+  <body>
+    <!-------------------------- Navbar -------------------------->
+    <header class="header-area">
+      <div class="header">
+        <ul class="navbar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <!-- <li><a href="#education">Education</a></li> -->
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-------------------- Home Page -------------------------->
+    <div class="homeSection" id="home">
+      <div class="profile-picture">
+        <img src="files/AanchalProfilePicture.png" alt="profile picture" />
+      </div>
+      <div class="profile-text">
+        <h5>Hi I'm</h5>
+        <br />
+        <h1>Aanchal</h1>
+        <br />
+        <p>
+          I'm a motivated fresher with a strong academic background and a
+          passion for creating innovative solutions. I'm proficient in Python
+          programming and thrive in fast-paced environments. Always eager to
+          learn, I actively seek opportunities to enhance my knowledge through
+          real-world projects. Explore my skills and expertise here!
+        </p>
+
+        <div class="btn-group">
+          <a
+            href="files/Aanchal-Sagitra-FlowCV-Resume-20240128 (1).pdf"
+            class="btn active"
+            target="_blank"
+            >Download Resume</a
+          >
+          <a href="mailto:aanchalsagitra260@gmail.com" class="btn contactbtn">Contact</a>
+        </div>
+
+        <div class="social">
+          <a href="https://www.linkedin.com/in/aanchal01/" target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          <a href="https://github.com/aanchalsagitra" target="_blank"
+          ><i class="fa-brands fa-github"></i
+            <a href="https://leetcode.com/aanchalsagitra/" target="_blank"
+              ><i class="fa fa-code"></i
+            ></a>
+            <a href="mailto:aanchalsagitra260@gmail.com" target="_blank"
+              ><i class="fa fa-envelope"></i
+            ></a>
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------- About Section -------------------------->
+    <section class="about-area" id="about">
+      <div class="container">
+        <div class="about">
+          <div class="about-content">
+            <h4>About Me</h4>
+            <ul>
+              <li>
+                I'm in the final year of my Bachelor's Degree in Computer
+                Science and Engineering. I have established a well foundation in
+                web development, specializing in Python, SQL, HTML, CSS, and
+                JavaScript.
+              </li>
+              <li>
+                With expertise in these domains, I confidently tackle projects,
+                ensuring the delivery of high-quality results. I firmly believe
+                in the importance of continuous learning and adaptability in the
+                ever-evolving field of software engineering.
+              </li>
+            </ul>
+          </div>
+
+          <div class="about-skills">
+            <ul>
+              <li>Aanchal Sagitra</li>
+              <li>21 Years</li>
+              <li>India</li>
+              <!-- <li>Email:aanchalsagitra260@gmail.com</li> -->
+              <li>Full Time Availability</li>
+              <li>Fresher</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- Projects -------------------------->
+    <section class="project-content" id="projects">
+      <div class="container">
+        <div class="project-title">
+          <h4>My Projects</h4>
+          <p>Where creativity meets innovation</p>
+        </div>
+        <div class="projects">
+          <!-- 1st Project -->
+          <div class="project">
+            <i class="fa fa-coffee"></i>
+            <h4>MyWhiteBoard</h4>
+            <p>
+              Developed MyWhiteBoard, a dynamic application highlighting
+              advanced functionalities, such as customizable pen colors,
+              drawing, eraser for precise editing, and work-saving capabilities.
+              Demonstrates practical Python programming expertise in real-world
+              applications.
+            </p>
+          </div>
+          <!-- 2nd Project -->
+          <div class="project">
+            <i class="fa fa-car"></i>
+            <h4>MyPortfolio</h4>
+            <p>
+              Created a portfolio website using HTML, CSS, and JavaScript,
+              serves as a platform to introduce myself, share my projects, and
+              other details.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- Contact Me -------------------------->
+
+    <section class="contact-content" id="contact">
+      <div class="container">
+        <div class="contact-title">
+          <h4>Contact Me</h4>
+          <p>Get In Touch</p>
+        </div>
+        <div class="contact">
+          <form name="submitToGoogleSheet">
+            <input type="text" name="NAME" placeholder="Name" required />
+            <input type="email" name="EMAIL" placeholder="Email" required />
+            <input type="text" name="SUBJECT" placeholder="Subject" />
+            <textarea name="MESSAGE" placeholder="Message"></textarea>
+            <input type="submit" value="Send Message" class="submit" />
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- JS -------------------------->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+
+    <!-------------------------- Footer section -------------------------->
+    <footer class="footer">
+      <small class="message">Thanks for visiting</small>
+      <small class="copyright"
+        >&copy; Copyright 2024. All rights reserved.</small
+      >
+    </footer>
+  </body>
+</html>
