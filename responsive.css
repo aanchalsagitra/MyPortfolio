@@ -16,8 +16,8 @@
   .about,
   .projects,
   .contact {
-    padding-left: 32px;
-    padding-right: 2px;
+    padding-left: 30px;
+    /* padding-right: 2px; */
   }
 }
 
@@ -37,7 +37,7 @@
     margin: 0px auto;
   }
   .about p {
-    font-size: 8px;
+    font-size: 9px;
   }
   .about,
   .projects {
